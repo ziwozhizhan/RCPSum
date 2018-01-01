@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Ui
+Bundle-SymbolicName: com.wsz.rcpsum.ui;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: com.wsz.rcpsum.ui.UIPlugin
+Bundle-Vendor: WSZ
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.ui.forms;bundle-version="3.5.101"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Export-Package: com.wsz.rcpsum.ui.perspective

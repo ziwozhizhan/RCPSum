@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Platform
+Bundle-SymbolicName: com.wsz.rcpsum.platform; singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: com.wsz.rcpsum.platform.RCPSumPlugin
+Bundle-Vendor: WSZ
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ com.wsz.rcpsum.ui.login;bundle-version="1.0.0",
+ com.wsz.rcpsum.ui;bundle-version="1.0.0"
+Bundle-ActivationPolicy: lazy

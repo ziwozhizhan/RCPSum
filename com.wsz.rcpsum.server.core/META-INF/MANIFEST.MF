@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Core
+Bundle-SymbolicName: com.wsz.rcpsum.server.core
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.wsz.rcpsum.server.core.ServerCorePlugin
+Bundle-Vendor: WSZ
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-ActivationPolicy: lazy

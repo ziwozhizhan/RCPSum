@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Core
+Bundle-SymbolicName: com.wsz.rcpsum.core
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.wsz.rcpsum.core.CorePlugin
+Bundle-Vendor: WSZ
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ com.wsz.rcpsum.util.commons;bundle-version="1.0.0"
+Bundle-ActivationPolicy: lazy
