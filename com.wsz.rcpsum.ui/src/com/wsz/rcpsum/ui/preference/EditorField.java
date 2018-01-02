@@ -14,6 +14,11 @@ import org.eclipse.jface.preference.StringFieldEditor;
 import org.eclipse.ui.IWorkbench;
 import org.eclipse.ui.IWorkbenchPreferencePage;
 
+/**
+ * 首选项：字段编辑器
+ * @author wsz 2018-1-2
+ *
+ */
 public class EditorField extends FieldEditorPreferencePage implements IWorkbenchPreferencePage {
 	public EditorField() {
 		super(GRID); //默认  FLAT
