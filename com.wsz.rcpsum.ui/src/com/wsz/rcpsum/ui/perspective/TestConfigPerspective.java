@@ -13,6 +13,7 @@ public class TestConfigPerspective implements IPerspectiveFactory {
 	public static final String ID = "com.wsz.rcpsum.ui.perspective.testConfig";
 
 	public void createInitialLayout(IPageLayout layout) {
-//		layout.setEditorAreaVisible(false);
+		layout.getEditorArea();
+		
 	}
 }
