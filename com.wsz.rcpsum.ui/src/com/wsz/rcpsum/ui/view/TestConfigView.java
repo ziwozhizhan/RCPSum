@@ -9,12 +9,13 @@ import org.eclipse.swt.widgets.Composite;
 import org.eclipse.ui.PartInitException;
 import org.eclipse.ui.PlatformUI;
 import org.eclipse.ui.part.ViewPart;
-import org.osgi.framework.Bundle;
 
 import com.wsz.rcpsum.ui.editor.MutiFormEditor;
 import com.wsz.rcpsum.ui.editor.MutiFormEditorInput;
 
 public class TestConfigView extends ViewPart {
+	
+	public final static String ID = "com.wsz.rcpsum.ui.view.testConfig";
 
 	public TestConfigView() {
 	}

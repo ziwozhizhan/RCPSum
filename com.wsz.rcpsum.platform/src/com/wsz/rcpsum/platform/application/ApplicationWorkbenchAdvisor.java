@@ -26,7 +26,7 @@ public class ApplicationWorkbenchAdvisor extends WorkbenchAdvisor {
 		super.initialize(configurer);
 		
 		// 保存用户的布局
-		configurer.setSaveAndRestore(true);
+//		configurer.setSaveAndRestore(true);
 		// 设置view、editor等的tab显示风格（改为圆弧形）
 		PlatformUI.getPreferenceStore().setValue(IWorkbenchPreferenceConstants.SHOW_TRADITIONAL_STYLE_TABS, false);
 		// 设置透视图工具条，初始在右上角

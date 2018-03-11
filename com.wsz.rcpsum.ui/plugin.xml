@@ -18,8 +18,25 @@
       <view
             category="com.wsz.rcpsum.ui.category.config"
             class="com.wsz.rcpsum.ui.view.TestConfigView"
+            icon="icons/layout_content.png"
             id="com.wsz.rcpsum.ui.view.testConfig"
             name="测试配置"
+            restorable="true">
+      </view>
+      <view
+            category="com.wsz.rcpsum.ui.category.config"
+            class="com.wsz.rcpsum.ui.view.CreateUsersView"
+            icon="icons/folder_user.png"
+            id="com.wsz.rcpsum.ui.view.createUsers"
+            name="创建联系人"
+            restorable="true">
+      </view>
+      <view
+            category="com.wsz.rcpsum.ui.category.config"
+            class="com.wsz.rcpsum.ui.view.ScheduleView"
+            icon="icons/clock.png"
+            id="com.wsz.rcpsum.ui.view.schedule"
+            name="日程"
             restorable="true">
       </view>
    </extension>
@@ -31,9 +48,29 @@
                closeable="true"
                id="com.wsz.rcpsum.ui.view.testConfig"
                minimized="false"
-               ratio="0.25"
+               ratio="0.6"
                relationship="left"
                relative="org.eclipse.ui.editorss"
+               visible="true">
+         </view>
+         <view
+               closeable="true"
+               id="com.wsz.rcpsum.ui.view.createUsers"
+               minimized="false"
+               moveable="true"
+               ratio="0.6"
+               relationship="bottom"
+               relative="com.wsz.rcpsum.ui.view.testConfig"
+               visible="true">
+         </view>
+         <view
+               closeable="true"
+               id="com.wsz.rcpsum.ui.view.schedule"
+               minimized="false"
+               moveable="true"
+               ratio="0.6"
+               relationship="stack"
+               relative="com.wsz.rcpsum.ui.view.createUsers"
                visible="true">
          </view>
       </perspectiveExtension>
